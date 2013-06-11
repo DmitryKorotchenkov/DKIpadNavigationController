@@ -43,8 +43,8 @@
 
 - (void)setDefaultSettings {
     self.controllersAlignment = DKIpadNavigationAlignmentCenter;
-    self.landscapeSpacing = 20.0;
-    self.portraitSpacing = 20.0;
+    self.landscapeSpacing = 0.0;
+    self.portraitSpacing = 0.0;
 }
 
 - (id)initWithDelegate:(id <DKIpadNavigationControllerDelegate>)delegate {
